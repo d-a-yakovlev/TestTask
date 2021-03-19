@@ -12,7 +12,7 @@ namespace KasperskyTest
         {
             FactoryFileProcessor[] factories =
             {
-                new FactoryFileProcessorHTML(),
+                new FactoryFileProcessorHTML(), 
                 new FactoryFileProcessorText(),
                 new FactoryFileProcessorJSON()
             };
