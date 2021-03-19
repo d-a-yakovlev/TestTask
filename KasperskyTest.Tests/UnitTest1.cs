@@ -12,7 +12,6 @@ namespace KasperskyTest.Tests
             var factory = new FactoryFileProcessorHTML();
             var fileProcessor = factory.GetFileProcessor();
 
-
             Assert.AreEqual(new FileProcessorHTML().type, fileProcessor.type);
         }
 
@@ -22,7 +21,6 @@ namespace KasperskyTest.Tests
             var factory = new FactoryFileProcessorText();
             var fileProcessor = factory.GetFileProcessor();
 
-
             Assert.AreEqual(new FileProcessorText().type, fileProcessor.type);
         }
 
@@ -31,7 +29,6 @@ namespace KasperskyTest.Tests
         {
             var factory = new FactoryFileProcessorJSON();
             var fileProcessor = factory.GetFileProcessor();
-
 
             Assert.AreEqual(new FileProcessorJSON().type, fileProcessor.type);
         }
